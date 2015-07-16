@@ -2,9 +2,7 @@
     background-image: url(../img/ew-hero-firstframe.jpg);
     text-align: center;
     position: relative;
-    height: 550px;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
+    height: 550px;    
 }
 
 .top-page .container {
@@ -48,8 +46,7 @@
     text-align: center;
     position: relative;
     height: 550px;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
+    
 }
 .third-div .container {
     padding-top: 100px;    
@@ -93,8 +90,7 @@
     background-image: url(../img/ew-hero-finalframe.jpg);   
     height: 465px;
     text-align: center;   
-    background-attachment: scroll;
-    background-repeat: no-repeat; 
+    
 }
 
 .seventh-div .container {
@@ -147,6 +143,17 @@ padding-top: 200px;
 }
 
 
+@media (max-width: 1200px) {
+    .top-page.paraxify,
+    .seventh-div.paraxify,
+    .third-div.paraxify {
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+    }
+}
+
+    
+
 /* 4 and 4s Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .white-box {
@@ -164,6 +171,8 @@ padding-top: 200px;
     body > div.seventh-div.paraxify > div > div > div > a.btn.white-button.btn-lg {
         margin-bottom: 10px;
     }
+    
+     
 } 
 /* 4 and 4s Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
