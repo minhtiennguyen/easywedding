@@ -1,0 +1,201 @@
+.top-page {
+    background-image: url(../img/ew-hero-firstframe.jpg);
+    text-align: center;
+    position: relative;
+    height: 550px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.top-page .container {
+    padding-top: 150px;
+}
+
+.top-page .inner-content h1,
+.seventh-div .inner-content h1
+{
+    color: #ffffff;
+    text-shadow: 0 0 20px #000;
+}
+
+.top-page .inner-content h2.lead {
+    color: #ffffff;
+    text-shadow: 0 0 20px #000;
+}
+
+.inner-content{
+    position: relative;
+}
+
+.second-div {
+    text-align: center;
+    background-color: rgba(255,255,255,.8);
+    padding: 30px 0;
+}
+
+.second-div .inner-content h1 {
+    font-weight: 300;
+    color: #444;
+}
+
+.second-div .inner-content h2.lead {
+    color: #848484;
+    font-weight: 400;
+}
+
+.third-div {
+    background-image: url(../img/ew-hero-brands3.jpg);
+    text-align: center;
+    position: relative;
+    height: 550px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.third-div .container {
+    padding-top: 100px;    
+}
+
+.white {
+    color: #ffffff;
+}
+
+.white-box {        
+    display: table;
+    padding: 0;    
+    background-color: white; 
+    width: 260px;
+    height: 46px;
+    margin-bottom: 20px; 
+}
+
+.fourth-div {
+    
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.fifth-div {
+    height: 300px;
+    background-color: #eeeeee;
+}
+
+
+.sixth-div{
+    text-align: center;
+}
+
+.sixth-div .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.seventh-div {
+    background-image: url(../img/ew-hero-finalframe.jpg);   
+    height: 465px;
+    text-align: center;   
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.seventh-div .container {
+padding-top: 200px;
+}
+
+.spacer {
+    height: 40px;
+}
+
+.carousel-caption {
+    text-align:left;
+    color: #444444;
+    text-shadow: none;
+}
+
+.item{
+    background: #eeeeee;        
+    height: 300px !important;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background: none;
+}
+
+.pink {
+    color: #e63077;
+}
+
+.pink-button {
+    color: white;
+    background-color: #e63077;
+}
+
+.pink-button:hover {
+    color: #e63077;
+    background-color: white;
+    border: 1px solid #e63077;
+}
+
+.white-button {
+    color: #e63077;
+    background-color: white;
+}
+
+.white-button:hover {
+    color: white;
+    background-color: #e63077;
+}
+
+
+/* 4 and 4s Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .white-box {
+        width: 130px;
+    }
+    body > div.fourth-div > div > div > div > div.col-md-6 {
+        padding-top: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    #myCarousel > div > div > div > div > h3 > i {
+        font-size: 13px;
+        font-weight: 400px;
+    }
+    body > div.seventh-div.paraxify > div > div > div > a.btn.white-button.btn-lg {
+        margin-bottom: 10px;
+    }
+} 
+/* 4 and 4s Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .white-box {
+        width: 210px;
+    }
+    #myCarousel > div > div > div > div > h3 > i {
+        font-size: 19px
+    }
+    body > div.fourth-div > div > div > div > div.col-md-6 {
+        padding-top: 0 !important;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ipad 3 4 Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    
+
+    .white-box {
+        width: 340px;
+    }
+    body > div.fourth-div > div > div > div > div.col-md-6 {
+        padding-top: 0 !important;
+        margin-bottom: 20px
+    }
+}
+
+/* ipad 3 4 Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .white-box {
+        width: 200px;
+    }
+}
